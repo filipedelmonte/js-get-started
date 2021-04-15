@@ -6,11 +6,20 @@
 ```
 let age = 18;                           // number 
 let name = "Jane";                      // string
-let name = {first:"Jane", last:"Doe"};  // object
-let truth = false;                      // boolean
+let truth = true;                      // boolean
+let falshy = false;                      // boolean
 let sheets = ["HTML","CSS","JS"];       // array
+let name = { first:"Jane", last:"Doe" };  // object
 let a; typeof a;                        // undefined
 let a = null;                           // value null
+
+let date = { day: 12, month: "dwfewf", isHoliday: false  }
+
+
+// object
+let date = { day: 12, month: "dwfewf", isHoliday: false, timezone: { name: "Brazil", code: "UTC-3" }  }
+console.log(date.month)
+console.log(date.timezone)
 ```
 
 ### Operators
